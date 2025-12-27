@@ -1,0 +1,242 @@
+{
+  "Enquiries": [
+    {
+      "id": "163b",
+      "name": "Bhanu Teja Katarapu",
+      "mobile": "07330846473",
+      "email": "bhanutejak116@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "284c",
+      "name": "Amar",
+      "mobile": "77697558999",
+      "email": "amar@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "fc1a",
+      "name": "Arvind",
+      "mobile": "7330846498",
+      "email": "Arvind@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "8413",
+      "name": "Prashant",
+      "mobile": "9890846473",
+      "email": "Prashant116@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "82d3",
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "id": "cbb9",
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "message": ""
+    }
+  ],
+  "Classes": [
+    {
+      "title": "Power Yoga",
+      "image": "./Assets2/Power yoga.jpg",
+      "alt": "Power Yoga",
+      "description": "A dynamic, strength-based yoga flow that builds heat, endurance, and flexibility. Ideal for those who love to move and sweat.",
+      "level": "Intermediate",
+      "duration": "60 mins",
+      "id": "75a4"
+    },
+    {
+      "title": "Meditation & Breathwork",
+      "image": "./Assets2/Breathing.jpg",
+      "alt": "Meditation & Breathwork",
+      "description": "Learn to calm the mind and reset your nervous system through guided meditation and powerful breathwork practices.",
+      "level": "Beginner",
+      "duration": "45 mins",
+      "id": "aae8"
+    },
+    {
+      "title": "Functional Training",
+      "image": "./Assets2/Functional.jpg",
+      "alt": "Functional Training",
+      "description": "Full-body, strength-based circuits using bodyweight, kettlebells, and mobility drills — perfect for everyday fitness and injury prevention.",
+      "level": "Advanced",
+      "duration": "60 mins",
+      "id": "7b1b"
+    },
+    {
+      "title": "Hatha Yoga",
+      "image": "./Assets2/Hatha.jpg",
+      "alt": "Hatha Yoga",
+      "description": "A slower-paced, traditional form of yoga focusing on alignment, posture, and breath control. Ideal for beginners and stress relief.",
+      "level": "Beginner",
+      "duration": "60 mins",
+      "id": "f3b7"
+    },
+    {
+      "title": "Prenatal Yoga",
+      "image": "./Assets2/Parental.jpg",
+      "alt": "Prenatal Yoga",
+      "description": "Gentle, supportive yoga classes tailored for expectant mothers — promoting relaxation, strength, and body awareness during pregnancy.",
+      "level": "All Levels",
+      "duration": "45 mins",
+      "id": "a05d"
+    },
+    {
+      "title": "HIIT Burn",
+      "image": "./Assets2/HTT (1).jpg",
+      "alt": "HIIT Burn",
+      "description": "High-Intensity Interval Training sessions that torch calories and boost metabolism. Quick, effective, and energy-packed.",
+      "level": "Intermediate",
+      "duration": "45 mins",
+      "id": "ae51"
+    }
+  ],
+  "Trainers": [
+    {
+      "name": "Arav",
+      "image": "../Assets2/Arav.jpg",
+      "fullName": "Aarav Mehta",
+      "title": "Yoga & Flexibility Coach",
+      "description": "Specialized in Vinyasa and Hatha yoga for physical balance and flexibility.",
+      "id": "b111"
+    },
+    {
+      "name": "Nikita",
+      "image": "../Assets2/Nikita.jpg",
+      "fullName": "Nikita Sharma",
+      "title": "Mindfulness Instructor",
+      "description": "Helps you master breathwork and meditation for stress relief and inner peace.",
+      "id": "a4e1"
+    },
+    {
+      "name": "Rohan",
+      "image": "../Assets2/Rohan.jpg",
+      "fullName": "Rohan Verma",
+      "title": "Fitness & Strength Coach",
+      "description": "Expert in functional training and mobility for strength, posture, and energy.",
+      "id": "2b35"
+    }
+  ],
+  "Schedules": [
+    {
+      "class": "Zumba Energy",
+      "time": "7:00 PM - 8:00 PM",
+      "day": "Monday",
+      "trainer": "Meera",
+      "status": "active",
+      "id": "c88d"
+    },
+    {
+      "class": "Pilates Core",
+      "time": "6:30 AM - 7:30 AM",
+      "day": "Tuesday",
+      "trainer": "Arav",
+      "status": "active",
+      "id": "64da"
+    },
+    {
+      "class": "Cardio Express",
+      "time": "5:00 PM - 5:45 PM",
+      "day": "Wednesday",
+      "trainer": "Rohan",
+      "status": "cancelled",
+      "id": "ff2d"
+    },
+    {
+      "class": "Detox Yoga",
+      "time": "6:00 AM - 7:00 AM",
+      "day": "Thursday",
+      "trainer": "Nikita",
+      "status": "active",
+      "id": "0107"
+    },
+    {
+      "class": "Strength & Conditioning",
+      "time": "6:00 PM - 7:00 PM",
+      "day": "Friday",
+      "trainer": "Meera",
+      "status": "active",
+      "id": "316f"
+    },
+    {
+      "class": "Lazy Sunday Flow",
+      "time": "9:00 AM - 10:00 AM",
+      "day": "Sunday",
+      "trainer": "Arav",
+      "status": "active",
+      "id": "f94c"
+    },
+    {
+      "class": "Evening Stretch",
+      "time": "8:00 PM - 9:00 PM",
+      "day": "Monday",
+      "trainer": "Meera",
+      "status": "active",
+      "id": "abc4"
+    },
+    {
+      "class": "Balance Workshop",
+      "time": "6:00 PM - 7:00 PM",
+      "day": "Wednesday",
+      "trainer": "Arav",
+      "status": "active",
+      "id": "4660"
+    },
+    {
+      "class": "Meditative Yin Yoga",
+      "time": "6:00 AM - 7:00 AM",
+      "day": "Friday",
+      "trainer": "Nikita",
+      "status": "active",
+      "id": "a1cb"
+    },
+    {
+      "class": "Soulful Sunday",
+      "time": "7:00 AM - 8:00 AM",
+      "day": "Sunday",
+      "trainer": "Meera",
+      "status": "active",
+      "id": "03d4"
+    },
+    {
+      "class": "Back & Shoulder Strength",
+      "time": "5:30 PM - 6:30 PM",
+      "day": "Monday",
+      "trainer": "Rohan",
+      "status": "active",
+      "id": "486c"
+    },
+    {
+      "class": "Vinyasa Flow",
+      "time": "7:00 PM - 8:00 PM",
+      "day": "Wednesday",
+      "trainer": "Nikita",
+      "status": "active",
+      "id": "ff55"
+    },
+    {
+      "class": "Fat Burn Cardio",
+      "time": "8:00 AM - 9:00 AM",
+      "day": "Thursday",
+      "trainer": "Arav",
+      "status": "active",
+      "id": "6985"
+    },
+    {
+      "class": "Sunset Strength",
+      "time": "6:00 PM - 7:00 PM",
+      "day": "Friday",
+      "trainer": "Rohan",
+      "status": "cancelled",
+      "id": "57d1"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15",
+      "storage": "128 GB",
+      "price": 69999,
+      "stock": 10,
+      "chip": "Apple A15 chip",
+      "display": "6.1\" Liquid Retina display",
+      "camera": "Dual-camera system",
+      "body": "Aluminum and glass body",
+      "image": "./Assets/15.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "iPhone 16",
+      "storage": "256 GB",
+      "price": 89999,
+      "stock": 18,
+      "chip": "Apple A16 chip",
+      "display": "6.5\" OLED Super Retina XDR",
+      "camera": "Triple-camera with Smart Focus",
+      "body": "Ceramic Shield, wireless charging",
+      "image": "./Assets/16.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "iPhone 16 Pro",
+      "storage": "512 GB",
+      "price": 119999,
+      "stock": 20,
+      "chip": "Apple A18 Pro chip",
+      "display": "6.8\" ProMotion Display",
+      "camera": "Cinematic Video Mode",
+      "body": "Titanium body, LiDAR scanner",
+      "image": "./Assets/16pro.jpeg"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "433c",
+      "name": "BhanuTeja",
+      "mobile": "7993294484",
+      "email": "Bhanutejak116@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "4ca3",
+      "name": "Raju",
+      "mobile": "7012548788",
+      "email": "raju768@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "f201",
+      "name": "Rahul",
+      "mobile": "9988775643",
+      "email": "Rahul6@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "45ab",
+      "name": "Madhav",
+      "mobile": "7012548700",
+      "email": "Madhav06@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "11bb",
+      "name": "Teja",
+      "mobile": "7330846479",
+      "email": "tejak116@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "0422",
+      "name": "Raju",
+      "mobile": "7012548788",
+      "email": "raju196@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "7290",
+      "name": "Jessy",
+      "mobile": "7993294086",
+      "email": "Jessy116@gmail.com",
+      "message": "Intrested"
+    },
+    {
+      "id": "5dd1",
+      "name": "Bharadwaja",
+      "mobile": "8341185019",
+      "email": "bharadwaja99@gmail.com",
+      "message": "Intrested to buy"
+    },
+    {
+      "id": "1f18",
+      "name": "BhanuTeja",
+      "mobile": "8341185019",
+      "email": "Karthik116@gmail.com",
+      "message": "IN"
+    },
+    {
+      "id": "999d",
+      "name": "BhanuTeja",
+      "mobile": "7993294484",
+      "email": "adminiphone@16.com",
+      "message": "uygfydfhfd"
+    },
+    {
+      "id": "9947",
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "message": ""
+    },
+    {
+      "id": "c9fa",
+      "name": "shiva",
+      "mobile": "7012548788",
+      "email": "goodapatimanikanta@gmail.com",
+      "message": "ergrtehryujkuetysrjheytj"
+    }
+  ],
+  "Features": [
+    {
+      "category": "Display & Design",
+      "features": [
+        {
+          "title": "Super Retina XDR",
+          "description": "6.7” OLED display with 2000 nits peak brightness.",
+          "icon": "./Assets/xdr.jpg",
+          "details": "Delivers ultra-clear contrast and HDR for vibrant visuals.",
+          "specs": "2796x1290 resolution, HDR10, Dolby Vision",
+          "benefit": "Brings your content to life with cinematic brilliance."
+        },
+        {
+          "title": "Ceramic Shield",
+          "description": "Toughest front glass in any smartphone.",
+          "icon": "./Assets/leather.jpg",
+          "details": "Infused with nano-ceramic crystals for extra toughness.",
+          "specs": "4x better drop protection, scratch resistant",
+          "benefit": "Peace of mind from accidental drops and daily wear."
+        }
+      ],
+      "id": "e54b"
+    },
+    {
+      "category": "Camera & Video",
+      "features": [
+        {
+          "title": "48MP Main Camera",
+          "description": "Capture detailed, vibrant photos even in low light.",
+          "icon": "./Assets/about1.jpg",
+          "details": "Uses quad-pixel sensor to combine four pixels into one.",
+          "specs": "f/1.78 aperture, 2x optical zoom, Night mode",
+          "benefit": "Professional-quality shots without carrying a DSLR."
+        },
+        {
+          "title": "Cinematic Mode",
+          "description": "Shoot with shallow depth and smart focus transitions.",
+          "icon": "./Assets/camera.jpg",
+          "details": "Automatically shifts focus between subjects smoothly.",
+          "specs": "4K HDR at 30 fps, real-time tracking",
+          "benefit": "Make your videos look like Hollywood movies."
+        }
+      ],
+      "id": "fb5b"
+    },
+    {
+      "category": "Performance & Battery",
+      "features": [
+        {
+          "title": "A17 Pro Chip",
+          "description": "Blazing-fast for gaming, AI, and multitasking.",
+          "icon": "./Assets/banner2.jpg",
+          "details": "First 3nm chip in a smartphone with dedicated GPU.",
+          "specs": "6-core CPU, 6-core GPU, 16-core Neural Engine",
+          "benefit": "Runs everything smoother, faster, and smarter."
+        },
+        {
+          "title": "All-day Battery",
+          "description": "Lasts up to 29 hours, charges fast with USB-C.",
+          "icon": "./Assets/battery.jpg",
+          "details": "Optimized to handle heavy tasks without draining quickly.",
+          "specs": "29h video / 95h audio playback, 20W fast charge",
+          "benefit": "Spend less time charging, more time doing."
+        }
+      ],
+      "id": "3d01"
+    },
+    {
+      "category": "Connectivity & Safety",
+      "features": [
+        {
+          "title": "5G + Wi-Fi 6E",
+          "description": "Blazing fast downloads and streaming anywhere.",
+          "icon": "./Assets/banner1.jpg",
+          "details": "Next-gen wireless speeds with lower latency.",
+          "specs": "10Gbps potential, dual-band support",
+          "benefit": "Stay connected without interruptions — anywhere."
+        },
+        {
+          "title": "Crash Detection",
+          "description": "Auto-alerts emergency contacts if accident occurs.",
+          "icon": "./Assets/privacy1.jpg",
+          "details": "Uses advanced sensors to detect severe crashes.",
+          "specs": "Accelerometer, Gyroscope, Barometer",
+          "benefit": "Can save your life when you can't reach your phone."
+        }
+      ],
+      "id": "8fc1"
+    }
+  ],
+  "Reviews": [
+    {
+      "name": "Rahul Verma",
+      "rating": 5,
+      "comment": "Mind-blowing camera and buttery smooth performance!",
+      "location": "Mumbai",
+      "profile": "./Assets/rahul.jpg",
+      "date": "2024-10-01",
+      "id": "09f1"
+    },
+    {
+      "name": "Aisha Khan",
+      "rating": 4,
+      "comment": "Battery life is incredible. I went a full day with 40% left!",
+      "location": "Delhi",
+      "profile": "./Assets/Aisha.jpg",
+      "date": "2024-11-12",
+      "id": "6c1c"
+    },
+    {
+      "name": "Karan Mehta",
+      "rating": 5,
+      "comment": "I switched from Android and it’s the best decision I made.",
+      "location": "Hyderabad",
+      "profile": "./Assets/karan.jpg",
+      "date": "2024-12-05",
+      "id": "968d"
+    },
+    {
+      "name": "Meera Nair",
+      "rating": 4,
+      "comment": "The design is sleek and premium. Feels great in hand.",
+      "location": "Bangalore",
+      "profile": "./Assets/Meera.jpg",
+      "date": "2025-01-08",
+      "id": "43ff"
+    }
+  ],
+  "Accessories": [
+    {
+      "name": "AirPods Pro 2",
+      "price": "₹24,900",
+      "features": [
+        "Active Noise Cancellation",
+        "Transparency Mode",
+        "MagSafe Charging Case"
+      ],
+      "type": "Audio",
+      "image": "assets/accessories/airpods.png",
+      "id": "cd21"
+    },
+    {
+      "name": "Apple Watch Series 9",
+      "price": "₹41,900",
+      "features": [
+        "Retina Display",
+        "Blood Oxygen Sensor",
+        "Fast Charging"
+      ],
+      "type": "Wearable",
+      "image": "assets/accessories/watch.png",
+      "id": "9d2f"
+    },
+    {
+      "name": "MagSafe Wireless Charger",
+      "price": "₹4,500",
+      "features": [
+        "15W Fast Charging",
+        "Magnetic Alignment",
+        "USB-C support"
+      ],
+      "type": "Charging",
+      "image": "assets/accessories/charger.png",
+      "id": "5585"
+    },
+    {
+      "name": "iPhone Leather Case",
+      "price": "₹5,900",
+      "features": [
+        "Premium Leather",
+        "MagSafe Compatible",
+        "Scratch Resistant"
+      ],
+      "type": "Protection",
+      "image": "assets/accessories/case.png",
+      "id": "bd2a"
+    },
+    {
+      "name": "Apple Pencil USB-C",
+      "price": "₹7,900",
+      "features": [
+        "Precision drawing",
+        "Tilt and pressure sensitivity",
+        "Compatible with iPads"
+      ],
+      "type": "Creative",
+      "image": "assets/accessories/pencil.png",
+      "id": "4ded"
+    },
+    {
+      "name": "AirTag (4 Pack)",
+      "price": "₹15,900",
+      "features": [
+        "Track lost items",
+        "Find My App",
+        "One-tap setup"
+      ],
+      "type": "Tracking",
+      "image": "assets/accessories/airtag.png",
+      "id": "5ff3"
+    }
+  ],
+  "students": [
+    {
+      "id": "0b34",
+      "name": "BhanuTeja",
+      "course": "Java Full stack",
+      "status": "ongoing"
+    },
+    {
+      "id": "2501",
+      "name": "idress",
+      "course": "Java Fullstack",
+      "status": "completed"
+    },
+    {
+      "name": "Niteesh",
+      "course": "MERN Fullstack",
+      "status": "ongoing",
+      "id": "cc0c"
+    },
+    {
+      "id": "d137",
+      "name": "Haneesh",
+      "course": "MERN Fullstack",
+      "status": "completed"
+    },
+    {
+      "id": "4f8e",
+      "name": "Madhav",
+      "course": "Java Fullstack",
+      "status": "completed"
+    }
+  ],
+  "Stocks": [
+    {
+      "id": "1",
+      "name": "iPhone 15",
+      "stock": 0
+    },
+    {
+      "id": "2",
+      "name": "iPhone 16",
+      "stock": 0
+    },
+    {
+      "id": "3",
+      "name": "iPhone 16 Pro",
+      "stock": 0
+    }
+  ]
+}

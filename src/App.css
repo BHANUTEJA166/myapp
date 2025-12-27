@@ -1,0 +1,168 @@
+/* aside {
+    text-align: center;
+    border-right: 1px solid gray;
+    padding: 50px 20px;
+}
+aside button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+} */
+
+aside {
+    text-align: center;
+    border-right: 1px gray;
+    padding: 50px 20px;
+}
+
+aside button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.banner1,
+.banner2,
+.banner3{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+
+}
+
+.banner1 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.306)), url("I phone/Assets/banner1.jpg");
+}
+.banner2 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.306)), url("I phone/Assets/banner3.jpg");
+}
+.banner3 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.306)), url("I phone/Assets/banner2.jpg");
+}
+
+.banner1,
+.banner2,
+.banner3 h1,h3 {
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+header {
+    border-bottom: 1px solid gray ;
+}
+
+form p {
+    color: red;
+    padding: 0px 10px;
+}
+
+@media(max-width:768px) {
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        height: 90vh;
+    }
+}
+
+.banner4,
+.banner5,
+.banner6{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+}
+
+.banner4{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.269),rgba(0, 0, 0, 0.247)), url("Fitzen/Assets2/banner4.jpg");
+}
+.banner5{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.269),rgba(0, 0, 0, 0.247)), url("Fitzen/Assets2/banner5.jpg");
+}
+.banner6{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.269),rgba(0, 0, 0, 0.247)), url("Fitzen/Assets2/banner6.jpg");
+}
+
+.banner4,
+.banner5,
+.banner6 h1 {
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+
+/* Fire Gym */
+.banner7,
+.banner8,
+.banner9 {
+    width: 100%;
+    height:500px;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    flex-direction:column;
+    color: rgb(246, 82, 12); 
+    padding: 50px;
+} 
+
+.banner7 {
+    background-image:linear-gradient( to bottom ,rgba(0, 0, 0, 0.269),rgba(0, 0, 0, 0.247)), url(./Fitzen/Assets2/banner4.jpg);
+}
+.banner8 {
+    background-image:linear-gradient( to bottom ,rgba(0, 0, 0, 0.269),rgba(0, 0, 0, 0.247)), url(./Fitzen/Assets2/banner5.jpg);
+}
+.banner9 {
+    background-image:linear-gradient( to bottom ,rgba(0, 0, 0, 0.269),rgba(0, 0, 0, 0.247)), url(./Fitzen/Assets2/banner6.jpg);
+}
+
+.banner7 h1,
+.banner8 h1,
+.banner9 h1 {
+    font-weight: 900;
+    text-align: center;
+} 
+
+.banner7 p,
+.banner8 p,
+.banner9 p {
+    font-weight: 500;
+    text-align: center;
+} 
+
+
+
+
+
+
+
+/* @media(max-width:768px) {
+
+    .banner4,
+    .banner5,
+    .banner6 {
+        height: 90vh;
+    }
+} */
