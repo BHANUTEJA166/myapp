@@ -130,7 +130,7 @@
         {
           "title": "Super Retina XDR",
           "description": "6.7” OLED display with 2000 nits peak brightness.",
-          "icon": "./Assets/xdr.jpg",
+          "icon": "/Assets/xdr.jpg",
           "details": "Delivers ultra-clear contrast and HDR for vibrant visuals.",
           "specs": "2796x1290 resolution, HDR10, Dolby Vision",
           "benefit": "Brings your content to life with cinematic brilliance."
@@ -138,7 +138,7 @@
         {
           "title": "Ceramic Shield",
           "description": "Toughest front glass in any smartphone.",
-          "icon": "./Assets/leather.jpg",
+          "icon": "/Assets/leather.jpg",
           "details": "Infused with nano-ceramic crystals for extra toughness.",
           "specs": "4x better drop protection, scratch resistant",
           "benefit": "Peace of mind from accidental drops and daily wear."
@@ -152,7 +152,7 @@
         {
           "title": "48MP Main Camera",
           "description": "Capture detailed, vibrant photos even in low light.",
-          "icon": "./Assets/about1.jpg",
+          "icon": "/Assets/about1.jpg",
           "details": "Uses quad-pixel sensor to combine four pixels into one.",
           "specs": "f/1.78 aperture, 2x optical zoom, Night mode",
           "benefit": "Professional-quality shots without carrying a DSLR."
@@ -160,7 +160,7 @@
         {
           "title": "Cinematic Mode",
           "description": "Shoot with shallow depth and smart focus transitions.",
-          "icon": "./Assets/camera.jpg",
+          "icon": "/Assets/camera.jpg",
           "details": "Automatically shifts focus between subjects smoothly.",
           "specs": "4K HDR at 30 fps, real-time tracking",
           "benefit": "Make your videos look like Hollywood movies."
@@ -174,7 +174,7 @@
         {
           "title": "A17 Pro Chip",
           "description": "Blazing-fast for gaming, AI, and multitasking.",
-          "icon": "./Assets/banner2.jpg",
+          "icon": "/Assets/banner2.jpg",
           "details": "First 3nm chip in a smartphone with dedicated GPU.",
           "specs": "6-core CPU, 6-core GPU, 16-core Neural Engine",
           "benefit": "Runs everything smoother, faster, and smarter."
@@ -182,7 +182,7 @@
         {
           "title": "All-day Battery",
           "description": "Lasts up to 29 hours, charges fast with USB-C.",
-          "icon": "./Assets/battery.jpg",
+          "icon": "/Assets/battery.jpg",
           "details": "Optimized to handle heavy tasks without draining quickly.",
           "specs": "29h video / 95h audio playback, 20W fast charge",
           "benefit": "Spend less time charging, more time doing."
@@ -196,7 +196,7 @@
         {
           "title": "5G + Wi-Fi 6E",
           "description": "Blazing fast downloads and streaming anywhere.",
-          "icon": "./Assets/banner1.jpg",
+          "icon": "/Assets/banner1.jpg",
           "details": "Next-gen wireless speeds with lower latency.",
           "specs": "10Gbps potential, dual-band support",
           "benefit": "Stay connected without interruptions — anywhere."
@@ -204,7 +204,7 @@
         {
           "title": "Crash Detection",
           "description": "Auto-alerts emergency contacts if accident occurs.",
-          "icon": "./Assets/privacy1.jpg",
+          "icon": "/Assets/privacy1.jpg",
           "details": "Uses advanced sensors to detect severe crashes.",
           "specs": "Accelerometer, Gyroscope, Barometer",
           "benefit": "Can save your life when you can't reach your phone."
