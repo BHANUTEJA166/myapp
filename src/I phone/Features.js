@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from 'axios';
 
 const FeaturesPage = () => {
-    const [data, setData] = useState(null)
+    const [data, setData] = useState([])
   const [error, setError] = useState("")
     useEffect(() => {
          axios.get(`http://localhost:5000/Features`)
