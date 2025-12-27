@@ -361,17 +361,17 @@
     {
       "id": "1",
       "name": "iPhone 15",
-      "stock": 0
+      "stock": 30
     },
     {
       "id": "2",
       "name": "iPhone 16",
-      "stock": 0
+      "stock": 25
     },
     {
       "id": "3",
       "name": "iPhone 16 Pro",
-      "stock": 0
+      "stock": 50
     }
   ]
 }
