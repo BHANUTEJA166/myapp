@@ -8,7 +8,7 @@ const Pricing = ({ stocks, loading, error, fetchStocks, buyIphone }) => {
 
   useEffect(() => {
     // Fetch product details
-    axios.get('http://localhost:5000/products')
+    axios.get("/data/database.json")
       .then(res => setProducts(res.data))
       .catch(console.error);
 
