@@ -25,9 +25,9 @@
 //     <Provider store={store}>
 //       <loginFData.Provider value={[loginF, setloginF]}>
 //         <main className="container-fluid p-0">
-//           <HeaderF />
-//           <RoutersF/>
-//           <FooterF />
+//           <HeaderFP />
+//           <RoutesFP/>
+//           <FooterFP />
 //         </main>
 //         </loginFData.Provider>
 //     </Provider>

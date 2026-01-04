@@ -44,83 +44,6 @@
       "mobile": "7993294484",
       "email": "Bhanutejak116@gmail.com",
       "message": "Intrested"
-    },
-    {
-      "id": "4ca3",
-      "name": "Raju",
-      "mobile": "7012548788",
-      "email": "raju768@gmail.com",
-      "message": "Intrested"
-    },
-    {
-      "id": "f201",
-      "name": "Rahul",
-      "mobile": "9988775643",
-      "email": "Rahul6@gmail.com",
-      "message": "Intrested"
-    },
-    {
-      "id": "45ab",
-      "name": "Madhav",
-      "mobile": "7012548700",
-      "email": "Madhav06@gmail.com",
-      "message": "Intrested"
-    },
-    {
-      "id": "11bb",
-      "name": "Teja",
-      "mobile": "7330846479",
-      "email": "tejak116@gmail.com",
-      "message": "Intrested"
-    },
-    {
-      "id": "0422",
-      "name": "Raju",
-      "mobile": "7012548788",
-      "email": "raju196@gmail.com",
-      "message": "Intrested"
-    },
-    {
-      "id": "7290",
-      "name": "Jessy",
-      "mobile": "7993294086",
-      "email": "Jessy116@gmail.com",
-      "message": "Intrested"
-    },
-    {
-      "id": "5dd1",
-      "name": "Bharadwaja",
-      "mobile": "8341185019",
-      "email": "bharadwaja99@gmail.com",
-      "message": "Intrested to buy"
-    },
-    {
-      "id": "1f18",
-      "name": "BhanuTeja",
-      "mobile": "8341185019",
-      "email": "Karthik116@gmail.com",
-      "message": "IN"
-    },
-    {
-      "id": "999d",
-      "name": "BhanuTeja",
-      "mobile": "7993294484",
-      "email": "adminiphone@16.com",
-      "message": "uygfydfhfd"
-    },
-    {
-      "id": "9947",
-      "name": "",
-      "mobile": "",
-      "email": "",
-      "message": ""
-    },
-    {
-      "id": "c9fa",
-      "name": "shiva",
-      "mobile": "7012548788",
-      "email": "goodapatimanikanta@gmail.com",
-      "message": "ergrtehryujkuetysrjheytj"
     }
   ],
   "Features": [
@@ -361,17 +284,17 @@
     {
       "id": "1",
       "name": "iPhone 15",
-      "stock": 0
+      "stock": 20
     },
     {
       "id": "2",
       "name": "iPhone 16",
-      "stock": 10
+      "stock": 25
     },
     {
       "id": "3",
       "name": "iPhone 16 Pro",
-      "stock": 34
+      "stock": 40
     }
   ]
 }
