@@ -116,17 +116,65 @@
 
 
 //VERCEL
+// import axios from "axios";
+// import {
+//   FETCH_STOCKS_REQUEST,
+//   FETCH_STOCKS_SUCCESS,
+//   FETCH_STOCKS_FAILURE,
+//   BUY_IPHONE,
+//   UPDATE_STOCK_SUCCESS
+// } from "./IphoneActionTypes";
+
+// // Fetch stocks from static JSON
+// export const fetchStocks = () => async (dispatch) => {
+//   dispatch({ type: FETCH_STOCKS_REQUEST });
+
+//   try {
+//     const res = await axios.get("/data/database.json");
+//     dispatch({
+//       type: FETCH_STOCKS_SUCCESS,
+//       payload: res.data.Stocks
+//     });
+//   } catch (err) {
+//     dispatch({
+//       type: FETCH_STOCKS_FAILURE,
+//       payload: err.message
+//     });
+//   }
+// };
+
+// // Optimistic buy (frontend-only)
+// export const buyIphoneAndUpdateStock = (id) => (dispatch, getState) => {
+//   const { stocks } = getState().iphones;
+//   const item = stocks.find((s) => s.id === id);
+
+//   if (!item || item.stock <= 0) return;
+
+//   dispatch({ type: BUY_IPHONE, payload: id });
+
+//   dispatch({
+//     type: UPDATE_STOCK_SUCCESS,
+//     payload: { ...item, stock: item.stock - 1 }
+//   });
+// };
+
+
 import axios from "axios";
 import {
   FETCH_STOCKS_REQUEST,
   FETCH_STOCKS_SUCCESS,
   FETCH_STOCKS_FAILURE,
-  BUY_IPHONE,
-  UPDATE_STOCK_SUCCESS
+  BUY_IPHONE
 } from "./IphoneActionTypes";
 
-// Fetch stocks from static JSON
-export const fetchStocks = () => async (dispatch) => {
+/**
+ * ✅ INITIAL LOAD ONLY (from static JSON)
+ */
+export const fetchStocks = () => async (dispatch, getState) => {
+  // ⛔ Prevent refetch if already loaded
+  const { stocks } = getState().iphones;
+  if (stocks.length > 0) return;
+
   dispatch({ type: FETCH_STOCKS_REQUEST });
 
   try {
@@ -143,17 +191,10 @@ export const fetchStocks = () => async (dispatch) => {
   }
 };
 
-// Optimistic buy (frontend-only)
-export const buyIphoneAndUpdateStock = (id) => (dispatch, getState) => {
-  const { stocks } = getState().iphones;
-  const item = stocks.find((s) => s.id === id);
-
-  if (!item || item.stock <= 0) return;
-
-  dispatch({ type: BUY_IPHONE, payload: id });
-
-  dispatch({
-    type: UPDATE_STOCK_SUCCESS,
-    payload: { ...item, stock: item.stock - 1 }
-  });
-};
+/**
+ * ✅ PURE REDUX UPDATE (THIS IS THE KEY)
+ */
+export const buyIphoneAndUpdateStock = (id) => ({
+  type: BUY_IPHONE,
+  payload: id
+});
