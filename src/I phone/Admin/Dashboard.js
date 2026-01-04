@@ -30,6 +30,9 @@ const Dashboard = () => {
           <Link to={`viewreviews`} >
           <button>View Reviews</button>
           </Link>
+          <Link to={`viewenquires`} >
+          <button>View Enquiries</button>
+          </Link>
         </aside>
         <div className="col-lg-9">
           <Outlet />

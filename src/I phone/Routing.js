@@ -19,6 +19,7 @@ import Viewaccessories from './Admin/Viewaccessories';
 import Addreviews from './Admin/Addreviews';
 import Viewreviews from './Admin/Viewreviews';
 import FeatureDetails from './FeatureDetails';
+import ViewEnquiries from './Admin/ViewEnquiries';
 
 const Routing = () => (
   <Routes>
@@ -40,6 +41,7 @@ const Routing = () => (
       <Route path="viewaccessories" element={<Viewaccessories />} />
       <Route path="addreviews"      element={<Addreviews />} />
       <Route path="viewreviews"     element={<Viewreviews />} />
+      <Route path="viewenquires"   element={< ViewEnquiries/>} />
     </Route>
     <Route path="*" element={<NoPage />} />
   </Routes>
