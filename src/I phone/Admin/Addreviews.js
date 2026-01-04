@@ -89,7 +89,7 @@ const Addreviews = () => {
                   onClick={() => getOneRecord(rev.id)}
                   data-bs-target="#Update"
                   data-bs-toggle="modal"
-                  className="btn btn-primary me-2"
+                  className="btn btn-primary me-2 mb-3"
                 >
                   <i className="bi bi-pencil"></i>
                 </button>

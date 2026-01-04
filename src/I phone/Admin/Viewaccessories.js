@@ -68,7 +68,7 @@ const Viewaccessories = () => {
                     onClick={() => getOneRecord(acc.id)}
                     data-bs-target='#update'
                     data-bs-toggle='modal'
-                    className='btn btn-primary me-2'
+                    className='btn btn-primary me-2 mb-3'
                   >
                     <i className="bi bi-pencil"></i>
                   </button>

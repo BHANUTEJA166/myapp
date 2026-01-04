@@ -1,23 +1,61 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios';
+// import React, { useEffect, useState } from 'react'
+// import axios from 'axios';
 
-const useCallApi = (api) => {
-    const [data, setData] = useState("");
+// const useCallApi = (api) => {
+//     const [data, setData] = useState("");
 
-    useEffect(() => {
-        axios.get('/data/database.json')
-        .then((res) => setData(res.data[api]))
-        .catch((err) => console.log(err));
-    }, [api])
+//     useEffect(() => {
+//         axios.get('/data/database.json')
+//         .then((res) => setData(res.data[api]))
+//         .catch((err) => console.log(err));
+//     }, [api])
 
-    return data
-}
+//     return data
+// }
 
-export default useCallApi
-
-
+// export default useCallApi
 
 
+
+
+//USECALL API GIT HUB
+// import React, { useEffect, useState } from 'react'
+// import axios from 'axios';
+
+// const useCallApi = (api) => {
+//     const [data, setData] = useState([]);
+//     useEffect(() => {
+//         axios.get(`http://localhost:5000/${api}`)
+//         .then((res) => setData(res.data))
+//         .catch((err) => console.log(err));
+// }, [api]);
+//   return data
+// }
+
+// export default useCallApi
+
+
+
+//VERCEL
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+const useCallApi = (key) => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("/data/database.json")
+      .then((res) => {
+        setData(res.data[key] || []);
+      })
+      .catch((err) => console.error(err));
+  }, [key]);
+
+  return data;
+};
+
+export default useCallApi;
 
 
 

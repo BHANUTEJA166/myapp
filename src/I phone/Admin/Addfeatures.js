@@ -135,13 +135,13 @@ const Addfeatures = () => {
                     onClick={() => getOneRecord(i, fea)}
                     data-bs-target="#Update"
                     data-bs-toggle="modal"
-                    className="btn btn-primary btn-sm me-2"
+                    className="btn btn-primary btn-sm me-2 mb-2"
                   >
                     Edit
                   </button>
                   <button
                     onClick={() => deleteFea(i, fea.id)}
-                    className="btn btn-danger btn-sm"
+                    className="btn btn-danger btn-sm mb-2"
                   >
                     Delete
                   </button>

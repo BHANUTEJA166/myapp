@@ -83,7 +83,7 @@ const Viewfeatures = () => {
                     onClick={() => getOneRecord(i, fea)}
                     data-bs-target="#Update"
                     data-bs-toggle="modal"
-                    className="btn btn-primary btn-sm me-2"
+                    className="btn btn-primary btn-sm me-2 mb-3"
                   >
                     Edit
                   </button>

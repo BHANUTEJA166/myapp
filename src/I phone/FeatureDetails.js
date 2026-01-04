@@ -12,6 +12,7 @@ const FeatureDetails = () => {
     axios
       .get("/data/database.json")
       .then((res) => {
+        // Find the feature category based on id
         const selectedFeature = res.data.Features.find(
           (item) => item.id === id
         );
@@ -29,7 +30,6 @@ const FeatureDetails = () => {
     <div className="container p-5">
       <div className="row">
 
-        {/* Feature Section */}
         <div className="mb-5">
           <h3 className="fw-bold mb-4 text-center">{data.category}</h3>
 
@@ -37,8 +37,6 @@ const FeatureDetails = () => {
             {data.features.map((feature, idx) => (
               <div key={idx} className="col-md-6 col-lg-4">
                 <div className="card h-100 shadow-sm border-0">
-
-                  {/* ✅ FIXED IMAGE PATH */}
                   <img
                     src={feature.icon}
                     alt={feature.title}
@@ -51,21 +49,15 @@ const FeatureDetails = () => {
                   />
 
                   <div className="card-body text-center">
-                    <h5 className="card-title fw-bold">
-                      {feature.title}
-                    </h5>
-                    <p className="text-muted">
-                      {feature.description}
-                    </p>
+                    <h5 className="card-title fw-bold">{feature.title}</h5>
+                    <p className="text-muted">{feature.description}</p>
                   </div>
-
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Enquiry Section */}
         <div
           className="d-flex flex-column justify-content-center align-items-center"
           style={{ minHeight: "100vh" }}
@@ -80,7 +72,6 @@ const FeatureDetails = () => {
 };
 
 export default FeatureDetails;
-
 
 
 
