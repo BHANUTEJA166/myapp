@@ -1,0 +1,3 @@
+export const LOAD_ENQUIRIES = "LOAD_ENQUIRIES";
+export const ADD_ENQUIRY = "ADD_ENQUIRY";
+
