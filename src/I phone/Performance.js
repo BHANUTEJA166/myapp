@@ -5,13 +5,13 @@ import Icon from "./Assets/cool.jpg";
 
 const Performance = () => {
   return (
-    <section  className="py-5 bg-white" id="performance">
+    <section  className="py-0 bg-white" id="performance">
       <div style={{ backgroundColor: 'black', color: 'white' }} className="container-fluid">
 
         {/* Intro Section */}
         <div className="text-center mb-5">
           <h2 className="display-5 fw-bold">Performance that keeps up with your ambition.</h2>
-          <p className="lead mt-3">
+          <p className="lead mt-3 ">
             From launching apps in milliseconds to editing 4K videos on the go,  
             iPhone is built for more than just speed — it’s built for possibility.<br />
             Every detail is optimized for one thing: <strong>to never slow you down.</strong>
@@ -21,17 +21,17 @@ const Performance = () => {
         {/* Chip Section */}
         <div className="row align-items-center my-5">
           <div className="col-md-6">
-            <h3 className="fw-bold">Meet the VoltFusion X1 Chip</h3>
-            <p className="">
+            <h3 className="fw-bold py-1">Meet the VoltFusion X1 Chip</h3>
+            <p className="mx-5">
               The smartest chip we’ve ever designed:
             </p>
-            <ul className="list-unstyled ">
+            <ul className="list-unstyled mx-5 ">
               <li>• 5nm architecture</li>
               <li>• 20% faster CPU</li>
               <li>• 40% more efficient GPU</li>
               <li>• AI engine with 15 trillion operations/sec</li>
             </ul>
-            <p className="">
+            <p className="mx-5 ">
               Whether you're gaming, creating, or multitasking — it’s not just fast.  
               It’s <em>intelligently</em> fast.
             </p>
@@ -67,11 +67,11 @@ const Performance = () => {
         <div className="row align-items-center my-5">
           <div className="col-md-6">
             <h3 className="fw-bold">Stay cool. Even under pressure.</h3>
-            <p className="">
+            <p className="mx-5 ">
               From high-performance gaming to intensive multitasking,  
               iPhone stays smooth and stable — thanks to our smart thermal design.
             </p>
-            <ul className="list-unstyled ">
+            <ul className="list-unstyled mx-5  ">
               <li>• Advanced graphene cooling layer</li>
               <li>• Heat is managed, not just handled</li>
               <li>• No lags. No throttling. Just power.</li>
@@ -85,8 +85,8 @@ const Performance = () => {
         {/* CTA Section */}
         <div className="text-center mt-5">
           <h4 className="fw-bold">Performance you’ll feel. Speed you’ll trust.</h4>
-          <a href="#compare" className="btn btn-dark btn-lg mt-3 me-3">Compare Models</a>
-          <a href="#features" className="btn btn-outline-dark btn-lg mt-3">See Features</a>
+          <a href="#compare" className="btn btn-dark btn-lg mt-3 me-3 mb-3">Compare Models</a>
+          <a href="#features" className="btn btn-dark btn-lg mt-3 mb-3">See Features</a>
         </div>
 
       </div>
